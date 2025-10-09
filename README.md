@@ -30,3 +30,7 @@ python -m pip install -r requirments.txt
 conda run -n mini_rag_app python -m pip show fastapi uvicorn python-multipart
 ```
 
+### 6 - Run the FastAPI server
+```bash
+$ uvicorn main:app --reload --host 0.0.0.0 --port 5000
+```
